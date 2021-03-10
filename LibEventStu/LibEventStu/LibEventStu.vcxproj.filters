@@ -13,10 +13,185 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="libevent">
+      <UniqueIdentifier>{9a7cb087-6861-4942-b7cb-40f4c7f1a8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libevent\include">
+      <UniqueIdentifier>{24ac1df3-a674-46bb-a671-f3b02d5ef4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libevent\include\event2">
+      <UniqueIdentifier>{939c50a3-3259-48a4-9fa0-9c71812af510}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LibEventStu.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libevent\include\bufferevent-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\changelist-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\defer-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\epolltable-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\evbuffer-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\evdns.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\evhttp.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\evmap-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\evrpc.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\evrpc-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\evsignal-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\evthread-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\evutil.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\ht-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\http-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\iocp-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\ipv6-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\kqueue-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\log-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\minheap-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\mm-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\openssl-compat.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\ratelim-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\strlcpy-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\time-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\util-internal.h">
+      <Filter>libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\buffer.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\buffer_compat.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\bufferevent.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\bufferevent_compat.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\bufferevent_ssl.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\bufferevent_struct.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\dns.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\dns_compat.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\dns_struct.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\event.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\event_compat.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\event_struct.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\http.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\http_compat.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\http_struct.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\keyvalq_struct.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\listener.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\rpc.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\rpc_compat.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\rpc_struct.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\tag.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\tag_compat.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\thread.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\util.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\include\event2\visibility.h">
+      <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libevent\include\include.am">
+      <Filter>libevent\include</Filter>
+    </None>
   </ItemGroup>
 </Project>
