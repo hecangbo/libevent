@@ -25,6 +25,9 @@
     <Filter Include="third">
       <UniqueIdentifier>{5006b5fb-3932-4fea-91d4-7895468be993}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{79624d7e-ec44-4779-93b8-1ff69c36b748}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LibEventStu.cpp">
@@ -32,6 +35,12 @@
     </ClCompile>
     <ClCompile Include="third\log4z.cpp">
       <Filter>third</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libEventInit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libEventConf.cpp">
+      <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -196,6 +205,12 @@
     </ClInclude>
     <ClInclude Include="third\log4z.h">
       <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libEventInit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libEventConf.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
