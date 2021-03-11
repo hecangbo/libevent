@@ -22,10 +22,16 @@
     <Filter Include="libevent\include\event2">
       <UniqueIdentifier>{939c50a3-3259-48a4-9fa0-9c71812af510}</UniqueIdentifier>
     </Filter>
+    <Filter Include="third">
+      <UniqueIdentifier>{5006b5fb-3932-4fea-91d4-7895468be993}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LibEventStu.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="third\log4z.cpp">
+      <Filter>third</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -187,6 +193,9 @@
     </ClInclude>
     <ClInclude Include="libevent\include\event2\visibility.h">
       <Filter>libevent\include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="third\log4z.h">
+      <Filter>third</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

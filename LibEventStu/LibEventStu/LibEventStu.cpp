@@ -3,10 +3,15 @@
 
 #include <iostream>
 #include "event2/event.h"
+#include "third/log4z.h"
+
 using namespace std;
+using namespace zsummer::log4z;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+	ILog4zManager::getRef().start();
+    LOGD( "Hello World!\n");
 #ifdef _WIN32
 	//初始化socket库
 	WSADATA wsa;
@@ -14,12 +19,12 @@ int main()
 #endif
 	
 	//创建libevent的上下文件
-	/*event_base * base = event_base_new();
+	event_base * base = event_base_new();
 	if (base)
 	{
 		cout << "event base new sucess!" << endl;
 	}
-	return 0;*/
+	return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

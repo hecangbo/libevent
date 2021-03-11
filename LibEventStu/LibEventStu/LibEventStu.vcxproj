@@ -160,6 +160,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LibEventStu.cpp" />
+    <ClCompile Include="third\log4z.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="libevent\include\bufferevent-internal.h" />
@@ -215,6 +216,7 @@
     <ClInclude Include="libevent\include\strlcpy-internal.h" />
     <ClInclude Include="libevent\include\time-internal.h" />
     <ClInclude Include="libevent\include\util-internal.h" />
+    <ClInclude Include="third\log4z.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="libevent\include\include.am" />
