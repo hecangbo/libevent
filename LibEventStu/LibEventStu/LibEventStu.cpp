@@ -11,7 +11,7 @@ using namespace zsummer::log4z;
 int main()
 {
 	ILog4zManager::getRef().start();
-    LOGD( "Hello World!\n");
+	LOGI("Hello World!");
 #ifdef _WIN32
 	//初始化socket库
 	WSADATA wsa;
@@ -22,8 +22,9 @@ int main()
 	event_base * base = event_base_new();
 	if (base)
 	{
-		cout << "event base new sucess!" << endl;
+		LOGI("event base new sucess!");
 	}
+	ILog4zManager::getRef().stop();
 	return 0;
 }
 
